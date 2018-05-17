@@ -11,7 +11,8 @@ namespace HelloWorldAspNetCore.Pages
     {
         public void OnGet()
         {
-
+                ViewData["machine"] = System.Environment.MachineName;
+                
         }
     }
 }
